@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./demo/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="JRAnimation - DEMO"/>
+    <title>DEMO JRAnimation</title>
+    <link rel="stylesheet" href="./demo/style.css">
+    <link rel="stylesheet" href="./dist/jranim.min.css">
+    <link rel="stylesheet" href="./demo/animate.css">
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div class="wrap">
+    <h1 class="anim anim-left">DEMO</h1>
+    <h2 class="anim anim-right">JenjaRusAnimation</h2>
+    <div class="empty-block"></div>
+    <div class="flex-anim">
+        <div class="anim-demo-item anim"></div>
+        <div class="anim-demo-item anim"></div>
+        <div class="anim-demo-item anim"></div>
+        <div class="anim-demo-item anim"></div>
+    </div>
+    <div class="empty-block"></div>
+    <div class="flex-anim">
+        <div class="anim-demo-item anim anim-left"></div>
+        <div class="anim-demo-item anim anim-top"></div>
+        <div class="anim-demo-item anim anim-bottom"></div>
+        <div class="anim-demo-item anim anim-right"></div>
+    </div>
+    <div class="empty-block"></div>
+    <div class="flex-anim">
+        <div class="anim-demo-item anim anim-top"></div>
+        <div class="anim-demo-item anim anim-bottom"></div>
+        <div class="anim-demo-item anim anim-top"></div>
+        <div class="anim-demo-item anim anim-bottom"></div>
+    </div>
+    <!--<h2 class="animate-item flip">Animate.css lib</h2>
+    <div class="flex-anim">
+        <div class="anim-demo-item animate-item shake"></div>
+        <div class="anim-demo-item animate-item wobble"></div>
+        <div class="anim-demo-item animate-item rotateIn"></div>
+        <div class="anim-demo-item animate-item bounceInRight"></div>
+    </div>-->
+    <div class="empty-block-small"></div>
+
+</div>
+<script src="./dist/jranim.min.js"></script>
+<script>
+    JRAnim();
+    /*JRAnim({
+        animElem: '.animate-item',
+        animClass: 'animated',
+        animToggle: false,
+        libAnim: true,
+    });*/
+</script>
+</body>
+</html>
