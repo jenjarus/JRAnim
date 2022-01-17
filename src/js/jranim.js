@@ -9,7 +9,6 @@ export default function JRAnim(options = {}) {
         animClass: 'anim-show', // Класс при срабатывании анимации
         animToggle: true, // Повтор анимации при скролле
         offset: 1, // Активация анимации от процента высоты элемента
-        // libAnim: false, // Активация работы animate.css
     };
     const config = extend(options, defaults);
     const elements = document.querySelectorAll(config.animElem);
@@ -78,11 +77,9 @@ function onAnimation(elements, config) {
         }
 
         if ((pageYOffset > elementOffset - elementPoint) && pageYOffset < (elementOffset + elementHeight)) {
-            // if (config.libAnim) element.style.animationName = '';
             element.classList.add(config.animClass);
         } else {
             if (config.animToggle) {
-                // if (config.libAnim) element.style.animationName = 'none';
                 element.classList.remove(config.animClass);
             }
         }

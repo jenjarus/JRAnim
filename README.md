@@ -2,14 +2,14 @@
 
 JenjaRusAnimation - скрипт добавления анимации при скролле страницы
 
-[DEMO](jenjarus.github.io/jranim/index.html)
+[DEMO](http://jenjarus.github.io/jranim/index.html)
 
 ## Документация
 
 ### Подключение
 
 Подключите к проекту файлы из папки dist
-- jranim.js или jranim.min.js
+- jranim.min.js
 - jranim.min.css
 
 ### Базовое использование
