@@ -2,7 +2,7 @@
 
 JenjaRusAnimation - скрипт добавления анимации при скролле страницы
 
-[DEMO](http://jenjarus.github.io/jranim/index.html)
+[DEMO](http://jenjarus.github.io/JRAnim/index.html)
 
 ## Документация
 
